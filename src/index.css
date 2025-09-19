@@ -1,0 +1,70 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  color: #111;
+  width: 100%;
+  max-width: 500px; /* mobile width */
+  margin: auto;
+  padding: 10px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container for all pages */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 100vh; /* all pages same height */
+  width: 100%;
+  padding: 10px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+  font-weight: bold;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Buttons */
+button, a.button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+/* Links below forms */
+p, span {
+  font-size: 0.9rem;
+}

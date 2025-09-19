@@ -1,0 +1,31 @@
+.container{
+    display:flex;
+    
+}
+.internal{
+    margin-top: 30rem;
+    text-align: left;
+    margin-right: 13rem
+}
+#heading{
+    margin-bottom: 1rem;
+}
+#par8{
+   font-size: medium;
+   color: gray;
+}
+#par9{
+    font-size: medium;
+    margin-bottom: 1.5rem;
+    color: gray;
+}
+button{
+    width:90%
+}
+#b1{
+    background-color: rgb(117, 53, 236);
+}
+#b2{
+    background-color: rgb(186, 132, 236);
+    margin-bottom: 4.5rem;
+}
